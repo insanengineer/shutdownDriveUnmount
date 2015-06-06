@@ -2,10 +2,10 @@
 
 # Define the mount point location of the network attatched
 # storage shares.
-MOUNT_LOCATION='/mnt'
+MOUNT_LOCATION='/mnt/lewis_data/'
 
 # an array of the share names check for
-declare -a SHARE_NAME_ARRAY=(movies tv music pictures public)
+declare -a SHARE_NAME_ARRAY=(Photos)
 
 # Check if the shares are currently mounted if they are then unmount them
 if mount | grep $MOUNT_LOCATION > /dev/null

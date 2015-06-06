@@ -18,4 +18,4 @@ click on the add script button
 choose the path were the script was downloaded and click ok
 select shutdown from the dropdown on the right of the script file name
 
-Now when you shutdown throuh a desktop envronment it should cleanly unmount your drives
+Now when you shutdown through a desktop envronment it should cleanly unmount your drives
